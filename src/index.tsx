@@ -15,7 +15,7 @@ ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<NavbarModern />
-			<div className=''>
+			<div >
 				<Switch>
 					<Route exact path='/' component={Body} />
 				</Switch>
