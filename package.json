@@ -2,7 +2,7 @@
 	"name": "frontend",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://jpta24.github.io/My_Portafolio",
+	"homepage": "https://jpta24.github.io",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^11.2.7",
@@ -30,7 +30,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -b master -d build",
 		"start": "react-scripts start",
-		"build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
