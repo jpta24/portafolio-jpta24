@@ -1,0 +1,6 @@
+hacer merge to Dev branch
+npm run deploy -- -m "Deploy 3"
+git push desde interfaz
+
+si voy a seguir trabajando hacer    
+    git checkout branch
