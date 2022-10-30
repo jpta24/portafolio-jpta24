@@ -15,11 +15,12 @@ ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<NavbarModern />
-			<div >
+			<Body/>
+			{/* <div >
 				<Switch>
-					<Route exact path='/My_Portafolio' component={Body} />
+					<Route exact path='/' component={Body} />
 				</Switch>
-			</div>
+			</div> */}
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')
