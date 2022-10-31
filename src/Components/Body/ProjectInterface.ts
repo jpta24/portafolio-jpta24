@@ -7,4 +7,5 @@ export interface ProjectInterface {
 	description: string;
 	icon: string;
 	url?:string;
+	server?:string;
 }

@@ -3,6 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import { FaGithub } from 'react-icons/fa';
 import { GoBrowser } from "react-icons/go";
+import { FiServer } from "react-icons/fi";
+
 
 import { ProjectInterface } from './ProjectInterface';
 
@@ -12,7 +14,7 @@ interface Props {
 
 const ProjectItem = ({ eachProject }: Props) => {
 	return (
-		<div className='col-md-4'>
+		<div className='col-md-4 my-2'>
 			<div className='card-body cardPr'>
 				<h3 className='titlePr'>{eachProject.name}</h3>
 
@@ -37,13 +39,18 @@ const ProjectItem = ({ eachProject }: Props) => {
 					<p>{eachProject.description}</p>
 				</div>
 				<div className='py-3'>
+				{eachProject.url && 
+					<a className='' href={eachProject.url} target='blank'>
+						<GoBrowser className='mx-2 imgPr links' />
+					</a>}
 					<a className='' href={eachProject.repository} target='blank'>
 						<FaGithub className='mx-2 imgPr links' />
 					</a>
-					{eachProject.url && 
-					<a className='' href={eachProject.repository} target='blank'>
-						<GoBrowser className='mx-2 imgPr links' />
+					{eachProject.server && 
+					<a className='' href={eachProject.server} target='blank'>
+						<FiServer className='mx-2 imgPr links' />
 					</a>}
+					
 				</div>
 			</div>
 		</div>

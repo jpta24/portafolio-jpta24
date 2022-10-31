@@ -64,7 +64,8 @@ const projectsData: ProjectInterface[] = [
 		description:
 			'SPA for e-commerce, where users can create business account and sell products to clients',
 		icon: gitHubSVG,
-		url:'https://foodie-de.netlify.app/IronFood'
+		url:'https://foodie-de.netlify.app/IronFood',
+		server:'https://github.com/jpta24/Foodie-Server'
 	},{
 		_id: 2,
 		name: 'PWR Playlists',

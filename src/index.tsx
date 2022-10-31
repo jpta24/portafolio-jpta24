@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import Body from './Components/Body/Body';
 import NavbarModern from './Components/Navbar/NavbarModern';
@@ -15,12 +15,7 @@ ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<NavbarModern />
-			<Body/>
-			{/* <div >
-				<Switch>
-					<Route exact path='/' component={Body} />
-				</Switch>
-			</div> */}
+			<Body/>	
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')

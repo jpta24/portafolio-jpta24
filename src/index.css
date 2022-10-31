@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
 .NavbarM {
 	backdrop-filter: blur(5px);
 	background-color: rgba(13, 41, 58, 0.568);
@@ -172,7 +174,7 @@ html {
 }
 
 .title {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2.5rem;
 	font-weight: bolder;
 	font-style: italic;
@@ -183,7 +185,7 @@ html {
 	-webkit-filter: blur(0px);
 }
 .description {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.5rem;
 	font-style: italic;
 	color: #ffe8c6;
@@ -248,7 +250,7 @@ html {
 .cardAbout {
 	padding: 15px;
 	margin: 0px;
-	font: normal bold 15px 'Oswald', sans-serif;
+	font: normal bold 15px 'Roboto', sans-serif;
 	color: #ff8714;
 	transition: all 0.2s ease-in-out !important;
 	-webkit-transition: all 0.2s ease-in-out !important;
@@ -283,14 +285,17 @@ html {
 }
 
 .skills {
-	background-color: gray;
+	background-image: url('./Components/Body/Assets/Img/Skills/bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	min-height: 570px;
 	display: flex;
 	flex: none;
 }
 
 .titleSk {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2.5rem;
 	font-weight: bolder;
 	font-style: italic;
@@ -358,7 +363,7 @@ html {
 }
 
 .titlePr {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	font-style: italic;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -408,7 +413,7 @@ a:hover {
 }
 
 .titleCo {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 4em;
 	font-weight: bolder;
 	font-style: italic;
